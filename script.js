@@ -32,7 +32,7 @@ const navLinks = document.querySelectorAll('.nav-item')
 const menuToggle = document.getElementById('navbarSupportedContent')
 setTimeout(function() {
     window.location.href = "#about";
-  }, 5000); // 7000 milliseconds = 7 seconds
+  }, 8000); // 7000 milliseconds = 7 seconds
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
 })
