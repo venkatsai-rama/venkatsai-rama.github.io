@@ -80,3 +80,10 @@ function startTimer() {
         }
     }, 1000);
 }
+
+
+
+// Call the function when the body of your HTML document has loaded.
+window.onload = function() {
+    startTimer();
+};
