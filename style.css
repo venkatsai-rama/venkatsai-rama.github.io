@@ -140,4 +140,16 @@
     font-size: 18px;
     margin-bottom: 10px;
 }
+.project-tech {
+    font-style: italic;  /* Make the text italic */
+    font-size: 0.9em;   /* Reduce the font size */
+    color: #888;        /* Set a more subtle color */
+    animation: colorChange 3s infinite;  /* Add a color-changing animation */
+}
+
+@keyframes colorChange {
+    0% {color: #888;}
+    50% {color: #555;}
+    100% {color: #888;}
+}
 
