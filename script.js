@@ -67,3 +67,16 @@ function sendMail() {
     })
     .catch((err) => console.log(err));
 }
+var counter = 5; // 5 second timer
+var intervalId = null;
+
+function startTimer() {
+    intervalId = setInterval(function() {
+        counter--;
+        if(counter < 0) {
+            scrollToAbout();
+        } else {
+            document.getElementById("counter").innerText = counter.toString();
+        }
+    }, 1000);
+}
