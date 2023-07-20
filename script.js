@@ -67,3 +67,41 @@ function sendMail() {
     })
     .catch((err) => console.log(err));
 }
+/* Services / Projects section */
+#services {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+#services .section-title {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#services .project-item {
+    margin-bottom: 30px;
+    border: 1px solid #ced4da;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#services .project-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 10px;
+}
+
+#services .project-tech {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+#services .coming-soon {
+    text-align: center;
+    font-size: 18px;
+    color: #6c757d;
+}
