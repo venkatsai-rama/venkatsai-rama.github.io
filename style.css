@@ -141,17 +141,17 @@
     margin-bottom: 10px;
 }
 /* Services / Projects section */
-#services {
+#projects {
     padding: 50px 0;
     background-color: #f8f9fa;
 }
 
-#services .section-title {
+#projects .section-title {
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 
-#services .project-item {
+#projects .project-item {
     margin-bottom: 30px;
     border: 1px solid #ced4da;
     padding: 20px;
@@ -160,7 +160,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#services .project-tech {
+#projects .project-tech {
     font-style: italic;  /* Make the text italic */
     font-size: 0.9em;   /* Reduce the font size */
     color: #888;        /* Set a more subtle color */
@@ -174,13 +174,13 @@
 }
 
 
-#services .project-tech {
+#projectss .project-tech {
     font-size: 18px;
     color: #6c757d;
     margin-bottom: 20px;
 }
 
-#services .coming-soon {
+#projects .coming-soon {
     text-align: center;
     font-size: 18px;
     color: #6c757d;
