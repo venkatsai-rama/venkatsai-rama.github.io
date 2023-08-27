@@ -312,39 +312,51 @@ This page will automatically scroll to about in <span id="counter">5</span> seco
         <h1 class="section-title text-center">Projects</h1>
 
         <!-- Project 1 -->
-        <div class="project-item">
-            <h2 class="project-title">UnivPredict Event Success Predictor</h2>
-            <h3 class="project-tech">React, C#, .NET, ML.NET, Cosmos DB, Azure, Docker, D3.js</h3>
-            <ul class="project-desc">
-                <li>Developed UnivPredict, a robust event success prediction system using C# and .NET for backend logic and React for frontend. This application enabled university event planners to estimate the success of their upcoming events in real-time, leveraging machine learning models hosted on an Azure server.</li>
-                <li>Incorporated ML.NET for machine learning tasks, including model training and prediction. The model utilized historical event data stored in Azure Cosmos DB to provide binary success predictions (successful or not) based on factors such as event type, attendee count, and guest speaker profiles.</li>
-                <li>Implemented a microservices architecture using .NET Core, and worked extensively with Azure services for scalability and modularity, integrating with internal APIs for data acquisition and result visualization.</li>
-                <li>Used D3.js in the React application to visualize prediction results from the machine learning model. Displayed the likelihood of event success as a percentage using a progress bar and created a pie chart to represent the relative influence of different factors on the event's success. This user-friendly presentation allowed users to understand the prediction results and make data-driven decisions.</li>
-                <li>Facilitated continuous integration and deployment using Docker, combined with Azure Kubernetes Service for orchestration, which reduced downtime and improved system reliability.</li>
-            </ul>
-        </div>
+        
+        <!-- University Data Insights Platform -->
+<div class="project-item">
+    <h2 class="project-title">University Data Insights Platform</h2>
+    <h3 class="project-tech">Python, Django, PostgreSQL, Redis, ElasticSearch, D3.js, RabbitMQ, Docker, Kubernetes, Azure Data Factory, Azure Machine Learning, Azure DevOps, PowerBI</h3>
 
-        <!-- Project 2 -->
-        <div class="project-item">
-            <h2 class="project-title">Dynamic Student Survey Form, Department Course Catalog</h2>
-            <h3 class="project-tech">Angular, Angular, AJAX, HTML, CSS, JavaScript, C#, .NET, REST API, Azure (Blob Storage, VMs, Azure App Service), Azure Functions, Azure Queues, Azure Service Bus, Azure Data Factory, Azure Databricks, Docker, Kubernetes</h3>
-            <ul class="project-desc">
-                <li>Developed a highly performant full-stack application using Angular for the front-end and C# with .NET for the back-end. Built robust REST APIs using .NET (C#) in Azure for efficient data handling and transaction processing.</li>
-                <li>Established a CI/CD pipeline leveraging Azure DevOps to rapidly integrate changes, deploying the project on Azure using Docker and Kubernetes for containerization and orchestration.</li>
-                <li>Integrated OpenAPI Specification Development to facilitate efficient communication between client and server. Hosted on Azure Blob Storage, Azure VMs, and Azure App Service.</li>
-            </ul>
-        </div>
+    <h4 class="project-subtitle">Objective</h4>
+    <p>The primary goal was to develop a comprehensive data insights platform for universities, enabling educational institutions to obtain actionable insights from their diverse data sets. This involved aggregating data from different sources, performing advanced analytics, and visualizing the results in intuitive dashboards.</p>
 
-        <!-- Project 3 -->
-        <div class="project-item">
-            <h2 class="project-title">Real-time Travel Planning Application</h2>
-            <h3 class="project-tech">ASP.NET Core, C#, ADO.NET, Docker, Azure Kubernetes Service, Azure (Blob Storage, VMs, Azure App Service), SIEBEL, REST API, Bing Maps API, OpenWeatherMap API</h3>
-            <ul class="project-desc">
-                <li>Developed a real-time travel planning application using ASP.NET Core for the back end and C# for business logic, following Object Oriented design and Principles, creating and maintaining high performing Rest APIs using .NET (C#) in Azure.</li>
-                <li>Implemented a microservices architecture using .NET Core and ADO.NET for data access to improve scalability and modularity, integrating with external APIs such as Bing Maps and OpenWeatherMap.</li>
-                <li>Utilized Azure Data Factory for ETL processes and Azure Databricks for processing large volumes of data in real time. Developed data ingestion and syndication pipelines through events with Azure Functions, Azure Queues, and Azure Service Bus.</li>
-            </ul>
-        </div>
+    <h4 class="project-subtitle">Data Collection and Aggregation</h4>
+    <ul class="project-desc">
+        <li>Designed and implemented robust data ingestion pipelines using Azure Data Factory to fetch data from diverse sources including student databases, online learning platforms, and financial systems.</li>
+        <li>Employed RabbitMQ as a message broker to facilitate asynchronous data processing, ensuring data consistency and scalability.</li>
+    </ul>
+
+    <h4 class="project-subtitle">Data Analysis and Insights Extraction</h4>
+    <ul class="project-desc">
+        <li>Utilized Azure Machine Learning to develop predictive models, helping universities predict student drop-out rates, course performance, and future enrollment figures based on historical data.</li>
+        <li>Enhanced query performance and facilitated full-text searches with ElasticSearch, providing the ability to fetch insights quickly and effectively.</li>
+        <li>Used Redis for caching frequently accessed data, substantially reducing database load and response times.</li>
+    </ul>
+
+    <h4 class="project-subtitle">Backend and API Development</h4>
+    <ul class="project-desc">
+        <li>Developed the backend using Django, a high-level Python web framework, to ensure rapid development and a clean, pragmatic design.</li>
+        <li>Implemented a RESTful API to expose the data analytics results to the frontend and other potential applications, ensuring scalability and security.</li>
+    </ul>
+
+    <h4 class="project-subtitle">Visualization and Dashboard Creation</h4>
+    <ul class="project-desc">
+        <li>Utilized D3.js for custom visualizations, offering interactive graphs and charts to represent complex data insights in an intuitive manner.</li>
+        <li>Integrated PowerBI for pre-made dashboard templates and additional visualization tools, allowing university stakeholders to customize their view and drill down into specific insights.</li>
+    </ul>
+
+    <h4 class="project-subtitle">Deployment and Scalability</h4>
+    <ul class="project-desc">
+        <li>Containerized the application using Docker to ensure consistency across different deployment environments.</li>
+        <li>Leveraged Kubernetes for orchestration, managing and scaling containers based on the application's demands.</li>
+        <li>Used Azure DevOps for a seamless CI/CD pipeline, enabling frequent updates and ensuring high availability of the platform.</li>
+    </ul>
+
+    <h4 class="project-subtitle">Outcome</h4>
+    <p>The University Data Insights Platform empowered educational institutions with data-driven decision-making capabilities. The platform's success was evident from its rapid adoption by several leading universities, leading to better resource allocation, improved student experiences, and enhanced operational efficiencies.</p>
+</div>
+
 
         <p class="coming-soon">I have several additional projects that I haven't uploaded yet, but stay tuned as I'll be adding them soon!</p>
     </div>
@@ -382,7 +394,7 @@ This page will automatically scroll to about in <span id="counter">5</span> seco
                     <div class="card">
                         <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title">YouTube Clone</h4>
+                            <h4 class="card-title">University Insight ( DE project)</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
@@ -395,7 +407,7 @@ This page will automatically scroll to about in <span id="counter">5</span> seco
                     <div class="card portfolioContent">
                         <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title">Quiz App</h4>
+                            <h4 class="card-title">Jupyter Notebook Some extraordinary feature release</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
@@ -436,7 +448,7 @@ This page will automatically scroll to about in <span id="counter">5</span> seco
                     <div class="card portfolioContent">
                         <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title">Twitter Clone</h4>
+                            <h4 class="card-title">Twitter Clone ( Analysis of this data)</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
